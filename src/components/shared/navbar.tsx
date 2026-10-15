@@ -4,7 +4,7 @@ import { ModeToggle } from "@/components/shared/mode-toggle";
 import { cn } from "@/lib/utils";
 
 // TODO: ganti dengan link repo GitHub kamu
-const GITHUB_URL = "https://github.com/username/nextjs-starter";
+const GITHUB_URL = "https://github.com/hilmyhafizhhh/nextjs-starterpack";
 
 const links = [
   { href: "/#features", label: "Fitur" },

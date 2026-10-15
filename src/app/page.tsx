@@ -14,7 +14,7 @@ import { Suspense } from "react";
 import { CurrentYear } from "@/components/shared/current-year";
 
 // TODO: ganti dengan link repo GitHub kamu
-const GITHUB_URL = "https://github.com/username/nextjs-starter";
+const GITHUB_URL = "https://github.com/hilmyhafizhhh/nextjs-starterpack";
 
 const features = [
   {
