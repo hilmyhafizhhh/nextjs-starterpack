@@ -1,0 +1,16 @@
+services:
+  db:
+    image: postgres:17
+    container_name: nextjs-staterpack # nama container, otomatis ikut nama project
+    restart: unless-stopped
+    environment:
+      POSTGRES_USER: postgres # username database
+      POSTGRES_PASSWORD: tamankota # password database (ganti di .env)
+      POSTGRES_DB: nextjs-staterpack-db # nama database yang dibuat otomatis
+    ports:
+      - "5433:5432" # format: PORT_DI_KOMPUTER:PORT_DI_CONTAINER
+    volumes:
+      - pg_data:/var/lib/postgresql/data # data tetap aman walau container dihapus
+
+volumes:
+  pg_data:
